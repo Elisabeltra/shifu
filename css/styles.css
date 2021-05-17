@@ -10071,7 +10071,11 @@ section {
 }
 section h2 {
   font-size: 50px;
+    
 }
+
+
+/*@media*/
 
 #mainNav {
   border-color: rgba(33, 37, 41, 0.05);
@@ -10308,6 +10312,12 @@ section.download .badges .badge-link img {
   }
 }
 
+@media screen and (max-width: 768px) {
+  section.download h2 {
+    font-size: 40px;
+  }
+}
+
 section.features .section-heading {
   margin-bottom: 100px;
 }
@@ -10414,4 +10424,37 @@ header.masthead .device-container .screen img {
   header.masthead .device-container {
     max-width: 325px;
   }
+    
+    
+   /*modificaciones*/
+    
+    .iconomio{
+        width:150px;
+        
+    }
+    
+   /* 
+    
+    @media screen and (max-width: 576px) {
+         .iconomio{
+        width:100px;
+        
+    }
+  
+}
+    
+  @media screen and (min-width: 768px) {
+         .iconomio{
+        width:150px;
+        
+    }
+  
+}*/
+    
+    
+    
+    
+    
+    
+    
 }
