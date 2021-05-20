@@ -10430,7 +10430,15 @@ header.masthead .device-container .screen img {
     
     .iconomio{
         width:150px;
-        color: bisque;
+        padding: 1.2em;
+        
+        
+        
+    }
+    
+    .iconopersona{
+        padding:0;
+       
         
     }
     
