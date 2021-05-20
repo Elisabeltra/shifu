@@ -56,6 +56,7 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -71,6 +72,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 body {
+    
   margin: 0;
     font-family: dunbar-text,sans-serif;
 font-weight: 500;
@@ -92,7 +94,6 @@ font-style: normal;
 hr {
   box-sizing: content-box;
   height: 0;
-  overflow: visible;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -118,8 +119,16 @@ abbr[data-original-title] {
 
 
 video{
-    width: 100%; min-height: 100%;
-    min-width: 420px;
+  width: 30%;
+   
+}
+@media (max-width:768px){
+    video{
+  width: 100%;
+         display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 }
 address {
   margin-bottom: 1rem;
@@ -10051,6 +10060,7 @@ h3 {
 }
 html,
 body {
+    overflow-x: hidden;
   width: 100%;
   height: 100%;
 }
@@ -10076,7 +10086,7 @@ section {
   padding: 100px 0;
 }
 section h2 {
-  font-size: 50px;
+  font-size: 40px;
     
 }
 
