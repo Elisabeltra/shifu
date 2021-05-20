@@ -82,6 +82,7 @@ font-style: normal;
   color: #212529;
   text-align: left;
   background-color: #fff;
+    
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -115,6 +116,11 @@ abbr[data-original-title] {
           text-decoration-skip-ink: none;
 }
 
+
+video{
+    width: 100%; min-height: 100%;
+    min-width: 420px;
+}
 address {
   margin-bottom: 1rem;
   font-style: normal;
@@ -10266,7 +10272,7 @@ section.cta .cta-content h2 {
   max-width: 450px;
   margin-top: 0;
   margin-bottom: 25px;
-  color: white;
+  color: black;
 }
 @media (min-width: 768px) {
   section.cta .cta-content h2 {
